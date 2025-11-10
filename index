@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harris' Personal Website</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f7fb;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: linear-gradient(135deg, #4a90e2, #357ABD);
+      color: white;
+      padding: 2em 1em;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-style: italic;
+    }
+
+    nav {
+      background-color: #222;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 25px;
+      display: inline-block;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #4a90e2;
+      color: #fff;
+    }
+
+    main {
+      padding: 30px;
+      max-width: 900px;
+      margin: 30px auto;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    section h2 {
+      color: #4a90e2;
+      border-bottom: 2px solid #4a90e2;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .projects-list {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .projects-list li {
+      background: #eaf0f8;
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .profile-pic {
+      width: 150px;
+      border-radius: 50%;
+      display: block;
+      margin: 15px auto;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      font-size: 0.9em;
+      margin-top: 40px;
+    }
+
+    a.email {
+      color: #4a90e2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a.email:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Website!</h1>
+    <p>"Work hard, play harder."</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects / Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="home">
+      <h2>Home</h2>
+      <p>Hello and welcome! My name is <strong>Harris</strong>, and this is my personal website built using HTML and CSS. Here, you’ll find a little bit about me, my interests, and what I’ve been working on. I hope you enjoy exploring it!</p>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="https://via.placeholder.com/150" alt="Harris photo" class="profile-pic">
+      <p>Hi, I’m <strong>Harris</strong>. I’m a 16-year-old student who loves technology, coding, and basketball. When I’m not studying or shooting hoops, I like exploring new software tools and learning how websites are made.</p>
+      <p>I enjoy challenging myself to grow, whether it's improving my coding skills, learning about computers, or helping others understand technology. I hope to someday work in tech or web design!</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects / Skills / Achievements</h2>
+      <ul class="projects-list">
+        <li><strong>Personal Portfolio Website:</strong> Built this page using HTML and CSS to show my creativity and design skills.</li>
+        <li><strong>Basketball Team Captain:</strong> Led my school team to regional playoffs — teamwork and leadership are key!</li>
+        <li><strong>Basic Coding Skills:</strong> Comfortable with HTML, CSS, and some JavaScript.</li>
+        <li><strong>Certificate of Achievement:</strong> Earned for excellence in Computer Science class (2025).</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Want to get in touch? You can reach me at: <a href="mailto:haris.usama@nycmc.me" class="email">haris.usama@nycmc.me</a></p>
+      <p>Or connect with me on:
+        <a href="#" class="email">LinkedIn</a> |
+        <a href="#" class="email">GitHub</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Harris' Personal Website | Built with HTML & CSS</p>
+  </footer>
+</body>
+</html>
